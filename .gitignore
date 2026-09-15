@@ -1,0 +1,53 @@
+# Datasets
+dataset/
+processed_dataset/
+data/
+FLIR_ADAS_v2/
+*.zip
+*.tar
+*.tar.gz
+
+# YOLO / Ultralytics outputs
+runs/
+weights/
+checkpoints/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Output predictions (keep folder structure via .gitkeep)
+results/predictions/*
+!results/predictions/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
